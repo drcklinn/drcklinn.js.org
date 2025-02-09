@@ -2,13 +2,13 @@ name: Validate cnames_active.js
 
 on:
   push:
-    branches:
+    branches: master
       - master
   pull_request:
-    branches:
+    branches: master
       - master
 
-permissions:
+permissions: read
   contents: read
 
 jobs:
